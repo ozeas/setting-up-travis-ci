@@ -1,0 +1,14 @@
+{
+  "name": "setting-up-travis-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ozeas/setting-up-travis-ci.git",
+  "author": "Ozeas Santos <ozeassanossilva@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
