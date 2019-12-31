@@ -1,1 +1,12 @@
 language: node_js
+
+node_js:
+  - '8.9.4'
+
+cache:
+  yarn: true
+  directores:
+    - node_modules
+
+script:
+  - make pre-commit

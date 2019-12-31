@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "test": "jest",
+    "test": "make test",
     "lint": "eslint ."
   },
   "devDependencies": {

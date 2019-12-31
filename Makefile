@@ -2,7 +2,8 @@ lint:
 	yarn lint
 
 test:
-	yarn test
+	yarn lint
+	jest
 
 pre-commit:
 	yarn lint
