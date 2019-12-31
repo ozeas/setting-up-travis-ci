@@ -14,11 +14,21 @@ Logado na conta, vá no menu de configuração do usuário e habilite os projeto
 
 Para configurar o travis no projeto execute as seguintes configurações:
 
-    $ touch travis.yml
+    $ touch .travis.yml
 
-Edite o arquivo travis.yml e aplique as configurações, nesse caso a linguagem base do projeto:
+Edite o arquivo travis.yml e aplique as configurações, olhe a documentação para mais detalhes, nesse caso a linguagem base do projeto, cache e script para as tarefas:
 
     language: ​node_js
+    node_js:
+    - '10.15'
+
+    cache:
+    yarn: true
+    directores:
+        - node_modules
+
+    script:
+    - make pre-commit
 
 No caso de um projeto `node_js` pode-se criar o arquivo `.nvmrc` com a versão do node.
 
