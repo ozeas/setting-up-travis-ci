@@ -2,13 +2,13 @@ Configurando o travis ci no github.
 
 [![Build Status](https://travis-ci.org/ozeas/setting-up-travis-ci.svg?branch=master)](https://travis-ci.org/ozeas/setting-up-travis-ci)
 
-A configuração do travis ci no github é bastante simples, basicamente você precisa exucutar as seguintes configurações:
+A configuração do travis ci no github é bastante simples, basicamente você precisa executar as seguintes configurações:
 
  1. Vincular sua conta do github no [travis ci](https://travis-ci.org/)
- 2. Habilitar o projeto dentro di travis ci
+ 2. Habilitar o projeto dentro do travis ci
  3. Adicionar configuração do travis no projeto
  
- Vincular sua conta do github no travis é bastante simples, na página principal do travis, basta cliclar em vincular conta.
+ Vincular sua conta do github no travis é bastante simples, na página principal do travis, basta vincular conta.
 
 Logado na conta, vá no menu de configuração do usuário e habilite os projetos.
 
